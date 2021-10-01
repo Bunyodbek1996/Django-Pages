@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bunyodbek.uz</title>
+</head>
+<body>
+
+    <header>
+      <a href="{% url 'home' %}">Bosh sahifa</a>
+      <a href="{% url 'about' %}">Sayt haqida</a>
+    </header>
+
+    {% block content %}
+    {% endblock content %}
+
+</body>
+</html>
